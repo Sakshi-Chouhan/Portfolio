@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Chouhan | Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+    <!-- Devicon & FontAwesome CDN Logos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="master-header">
+        <div class="header-content-wrapper">
+            
+            <div class="profile-avatar-wrapper">
+                <img src="image.jpeg" alt="Sakshi Chouhan" class="profile-avatar" id="user-profile-img" onerror="handleImageError(this)">
+                <div class="profile-avatar-fallback" id="avatar-fallback" style="display: none;">SC</div>
+            </div>
+
+            <div class="hero-text-block">
+                <h1 class="main-title">Sakshi Chouhan</h1>
+                
+                <!-- Typing Text Left Aligned -->
+                <div class="dynamic-typing-container">
+                    <span id="typing-text"></span><span class="typing-cursor">|</span>
+                </div>
+
+                <!-- Strategic Pitch -->
+                <p class="hero-pitch-text">
+                    Building high-performance, pixel-perfect web interfaces and scalable logic pipelines. 
+                    Computer Science undergraduate driven by clean modular architecture, algorithmic efficiency, and seamless user experiences.
+                </p>
+                
+                <div class="meta-strip">
+                    <span><i class="fa-solid fa-location-dot"></i> Madhya Pradesh, India</span>
+                    <span><i class="fa-solid fa-envelope"></i> <a href="mailto:chouhansakshi206@gmail.com">chouhansakshi206@gmail.com</a></span>
+                    <span><i class="fa-solid fa-phone"></i> +91 6267915026</span>
+                </div>
+
+                <div class="action-dock">
+                    <a href="https://www.linkedin.com/in/sakshi-chouhan-090175338" target="_blank" class="dock-btn ln-theme">LinkedIn Profile ↗</a>
+                    <a href="https://github.com/Sakshi-Chouhan" target="_blank" class="dock-btn gh-theme">GitHub Profile ↗</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="portfolio-grid-container">
+        <main class="workspace-stream">
+            
+            <!-- Technical Skills Section -->
+            <section class="portfolio-card technical-skills-section">
+                <h2 class="block-heading">Technical Skills</h2>
+                <div class="skills-square-matrix">
+                    
+                    <div class="tile-square-flip float-anim-1">
+                        <div class="tile-icon-wrapper"><i class="devicon-html5-plain colored"></i></div>
+                        <span class="tile-name">HTML5</span>
+                    </div>
+
+                    <div class="tile-square-flip float-anim-2">
+                        <div class="tile-icon-wrapper"><i class="devicon-css3-plain colored"></i></div>
+                        <span class="tile-name">CSS3 Layouts</span>
+                    </div>
+
+                    <div class="tile-square-flip float-anim-3">
+                        <div class="tile-icon-wrapper"><i class="devicon-javascript-plain colored"></i></div>
+                        <span class="tile-name">JavaScript</span>
+                    </div>
+
+                    <div class="tile-square-flip float-anim-1">
+                        <div class="tile-icon-wrapper"><i class="devicon-cplusplus-plain colored"></i></div>
+                        <span class="tile-name">C++ Basics</span>
+                    </div>
+
+                    <div class="tile-square-flip float-anim-2">
+                        <div class="tile-icon-wrapper"><i class="devicon-python-plain colored"></i></div>
+                        <span class="tile-name">Python</span>
+                    </div>
+
+                    <div class="tile-square-flip float-anim-3">
+                        <div class="tile-icon-wrapper"><i class="devicon-git-plain colored"></i></div>
+                        <span class="tile-name">Git & GitHub</span>
+                    </div>
+
+                    <div class="tile-square-flip float-anim-1">
+                        <div class="tile-icon-wrapper"><i class="fa-solid fa-cubes" style="color: #c084fc;"></i></div>
+                        <span class="tile-name">OOPs</span>
+                    </div>
+
+                    <div class="tile-square-flip float-anim-2">
+                        <div class="tile-icon-wrapper"><i class="fa-solid fa-sitemap" style="color: #e879f9;"></i></div>
+                        <span class="tile-name">DSA Basics</span>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Categorized Projects Section -->
+            <section class="portfolio-card">
+                <h2 class="block-heading">Projects</h2>
+                
+                <!-- Ongoing Projects -->
+                <div class="project-group-title">
+                    <span class="pulse-dot"></span> Active / Ongoing Projects
+                </div>
+
+                <div class="diagram-project-container margin-bottom-group">
+
+                    <!-- Active Project 1: Vision Attend AI -->
+                    <div class="project-block active-project-border">
+                        <div class="project-title-bar">
+                            <div class="p-title-meta">
+                                <h3>Vision Attend AI</h3>
+                                <span class="status-pill working-pill">In Development</span>
+                            </div>
+                            <p class="p-subtitle">Smart Campus Assistant & Automated Attendance System</p>
+                        </div>
+                        
+                        <div class="work-flow-diagram">
+                            <div class="diagram-step">
+                                <div class="step-box">Facial Detection & Real-time Video Stream Ingestion</div>
+                                <div class="step-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+                            </div>
+                            <div class="diagram-step">
+                                <div class="step-box highlight-box">Automated Enrollment & Verification Pipeline</div>
+                                <div class="step-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+                            </div>
+                            <div class="diagram-step">
+                                <div class="step-box">Smart Campus Attendance Analytics Dashboard</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Active Project 2: Nabh Drishti -->
+                    <div class="project-block active-project-border">
+                        <div class="project-title-bar">
+                            <div class="p-title-meta">
+                                <h3>Nabh Drishti</h3>
+                                <span class="status-pill working-pill">In Development</span>
+                            </div>
+                            <p class="p-subtitle">AI-Powered Aerial / Surveillance Monitoring System</p>
+                        </div>
+                        
+                        <div class="work-flow-diagram">
+                            <div class="diagram-step">
+                                <div class="step-box">High-Altitude Data & Video Capture Engine</div>
+                                <div class="step-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+                            </div>
+                            <div class="diagram-step">
+                                <div class="step-box highlight-box">Computer Vision Analysis & Processing Unit</div>
+                                <div class="step-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+                            </div>
+                            <div class="diagram-step">
+                                <div class="step-box">Real-time Anomaly Alerting & Monitoring Panel</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Completed Projects -->
+                <div class="project-group-title">
+                    <span class="completed-check"><i class="fa-solid fa-circle-check"></i></span> Completed Projects
+                </div>
+
+                <div class="diagram-project-container">
+
+                    <!-- Completed Project 1: QuickZo -->
+                    <div class="project-block">
+                        <div class="project-title-bar">
+                            <div class="p-title-meta">
+                                <h3>QuickZo</h3>
+                                <span class="status-pill done-pill">Completed</span>
+                            </div>
+                            <p class="p-subtitle">E-Commerce UI Platform</p>
+                        </div>
+                        
+                        <div class="work-flow-diagram">
+                            <div class="diagram-step">
+                                <div class="step-box">User Interface Layer</div>
+                                <div class="step-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+                            </div>
+                            <div class="diagram-step">
+                                <div class="step-box highlight-box">Responsive Grid Layout Structure</div>
+                                <div class="step-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+                            </div>
+                            <div class="diagram-step">
+                                <div class="step-box">Multi-Category Product Filtering System</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Completed Project 2: STOD -->
+                    <div class="project-block">
+                        <div class="project-title-bar">
+                            <div class="p-title-meta">
+                                <h3>STOD</h3>
+                                <span class="status-pill done-pill">Completed</span>
+                            </div>
+                            <p class="p-subtitle">Optimization & Data Analysis Dashboard</p>
+                        </div>
+                        
+                        <div class="work-flow-diagram">
+                            <div class="diagram-step">
+                                <div class="step-box">Raw Data Processing (104 Student Profiles)</div>
+                                <div class="step-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+                            </div>
+                            <div class="diagram-step">
+                                <div class="step-box highlight-box">Data Verification & Deduplication Pipeline</div>
+                                <div class="step-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+                            </div>
+                            <div class="diagram-step">
+                                <div class="step-box">Performance KPI Analytics Matrix</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Completed Project 3: Personal Portfolio -->
+                    <div class="project-block">
+                        <div class="project-title-bar">
+                            <div class="p-title-meta">
+                                <h3>Developer Portfolio Website</h3>
+                                <span class="status-pill done-pill">Completed</span>
+                            </div>
+                            <p class="p-subtitle">Interactive Engineering Portfolio</p>
+                        </div>
+                        
+                        <div class="work-flow-diagram">
+                            <div class="diagram-step">
+                                <div class="step-box">Modular Component Design System</div>
+                                <div class="step-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+                            </div>
+                            <div class="diagram-step">
+                                <div class="step-box highlight-box">Lavender Dark Cyber Theme Architecture</div>
+                                <div class="step-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+                            </div>
+                            <div class="diagram-step">
+                                <div class="step-box">Responsive Viewport Rendering</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Education Section -->
+            <section class="portfolio-card">
+                <h2 class="block-heading">Education</h2>
+                <div class="edu-flip-list">
+                    
+                    <div class="edu-flip-row">
+                        <div class="edu-meta">
+                            <h3>Bansal College of Engineering, Mandideep</h3>
+                            <span class="edu-date">2024 - 2028</span>
+                        </div>
+                        <p class="edu-spec">BTech - Computer Science & Engineering | CGPA: 7.79 (Current SGPA: 8.04)</p>
+                    </div>
+
+                    <div class="edu-flip-row">
+                        <div class="edu-meta">
+                            <h3>Makhanlal Chaturvedi National University (MCU)</h3>
+                            <span class="edu-date">2024</span>
+                        </div>
+                        <p class="edu-spec">Diploma in Computer Applications (DCA) | 72.04%</p>
+                    </div>
+
+                    <div class="edu-flip-row">
+                        <div class="edu-meta">
+                            <h3>Government Girls Higher Secondary School, Madhya Pradesh</h3>
+                            <span class="edu-date">2023</span>
+                        </div>
+                        <p class="edu-spec">Class 12th — MP Board | 83.60%</p>
+                    </div>
+
+                    <div class="edu-flip-row">
+                        <div class="edu-meta">
+                            <h3>Shastri Smriti Vidhya Mandir Higher Secondary School</h3>
+                            <span class="edu-date">2021</span>
+                        </div>
+                        <p class="edu-spec">Class 10th — MP Board | 92.00%</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Certifications & Achievements -->
+            <section class="portfolio-card">
+                <h2 class="block-heading">Certifications & Achievements</h2>
+                <div class="credentials-matrix-table">
+                    
+                    <div class="credential-row">
+                        <div class="cred-brand-meta">
+                            <div class="institution-logo-frame"><i class="fa-solid fa-code" style="color: #c084fc;"></i></div>
+                            <div class="cred-details">
+                                <h4>CodeChef Badge</h4>
+                                <p>Successfully recognized for solving problem 1000 Threshold and earned a Badge.</p>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/sakshi-chouhan-090175338_codecehf-activity-7433170258640699392-T76O" target="_blank" class="verify-action-trigger">Verify ↗</a>
+                    </div>
+
+                    <div class="credential-row">
+                        <div class="cred-brand-meta">
+                            <div class="institution-logo-frame"><i class="fa-solid fa-graduation-cap" style="color: #a855f7;"></i></div>
+                            <div class="cred-details">
+                                <h4>C++ Coding Certificate | Saylor Academy</h4>
+                                <p>Certified in fundamental syntactic layouts, object-oriented concepts, and clean execution paths.</p>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/sakshi-chouhan-090175338_c-certificate-activity-7319381929659695104-GSXy" target="_blank" class="verify-action-trigger">Verify ↗</a>
+                    </div>
+
+                    <div class="credential-row">
+                        <div class="cred-brand-meta">
+                            <div class="institution-logo-frame"><i class="fa-solid fa-building-columns" style="color: #d8b4fe;"></i></div>
+                            <div class="cred-details">
+                                <h4>BGI National Level Hackathon (2026)</h4>
+                                <p>Secured a Certificate of Participation at National Level BGI Hackathon | Theme: VIKSIT BHARAT VISION 2047.</p>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/sakshi-chouhan-090175338_bgi-hackathon-activity-7460738845056114688--nHO" target="_blank" class="verify-action-trigger">View Post ↗</a>
+                    </div>
+
+                    <div class="credential-row">
+                        <div class="cred-brand-meta">
+                            <div class="institution-logo-frame"><i class="fa-solid fa-award" style="color: #e879f9;"></i></div>
+                            <div class="cred-details">
+                                <h4>Prestige National Ideathon (2K26)</h4>
+                                <p>Recognized at the National Level Ideathon for Innovative and Tech Solution.</p>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/sakshi-chouhan-090175338_prestige-national-level-ideathone-2026-activity-7463612372226777089-DPwG" target="_blank" class="verify-action-trigger">View Proof ↗</a>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="portfolio-footer">
+        <div class="footer-glass-card">
+            <span class="footer-badge">⚡ Open to Technical Internships & Roles</span>
+            <h2>Let's Build Something Impactful</h2>
+            <p>Looking for a dedicated software developer? Let's connect and discuss technical opportunities.</p>
+            
+            <div class="footer-cta-buttons">
+                <a href="mailto:chouhansakshi206@gmail.com" class="footer-btn primary-btn"><i class="fa-solid fa-paper-plane"></i> Direct Email</a>
+                <a href="https://www.linkedin.com/in/sakshi-chouhan-090175338" target="_blank" class="footer-btn secondary-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/Sakshi-Chouhan" target="_blank" class="footer-btn secondary-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+
+            <div class="footer-bottom-line">
+                <p>© 2026 Sakshi Chouhan. Engineered with Lavender Aesthetics & Clean Code.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script for Dynamic Full Line Typing Animation -->
+    <script>
+        function handleImageError(imgElement) {
+            imgElement.style.display = 'none';
+            document.getElementById('avatar-fallback').style.display = 'flex';
+        }
+
+        // Exact Sequence Order
+        const words = [
+            "I am a Software Engineer",
+            "I am a Frontend Developer",
+            "I am a Continuous Learner",
+            "I am a Problem Solver"
+        ];
+        
+        let wordIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingText = document.getElementById("typing-text");
+
+        function typeEffect() {
+            const currentWord = words[wordIndex];
+            
+            if (isDeleting) {
+                typingText.textContent = currentWord.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingText.textContent = currentWord.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            let typeSpeed = isDeleting ? 30 : 70;
+
+            if (!isDeleting && charIndex === currentWord.length) {
+                typeSpeed = 1800; // Pause at full line
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                wordIndex = (wordIndex + 1) % words.length;
+                typeSpeed = 400; // Pause before new line starts
+            }
+
+            setTimeout(typeEffect, typeSpeed);
+        }
+
+        document.addEventListener("DOMContentLoaded", typeEffect);
+    </script>
+</body>
+</html>
